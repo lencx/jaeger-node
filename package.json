@@ -1,0 +1,29 @@
+{
+
+  "name": "jaeger-node",
+  "version": "0.0.1",
+  "main": "./app.js",
+  "author": "lencx <cxin1314@gmail.com>",
+  "description": "Opentracing and Jaeger use in Node.js",
+  "repository": "git@github.com:lencx/jaeger-node.git",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "http-proxy-middleware": "^0.19.1",
+    "jaeger-client": "^3.15.0",
+    "koa": "^2.7.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-logger": "^3.2.1",
+    "koa-router": "^7.4.0",
+    "koa2-connect": "^1.0.2",
+    "opentracing": "^0.14.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "engines": {
+    "node": ">=7.6"
+  }
+}
